@@ -1,0 +1,217 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  *{
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    background-color: #D6D6D6;
+    display: flex;
+    margin: 0 15%;
+    padding: 50px 50px 50px 50px;
+  }
+  
+  
+  header {
+     align-items: center;
+     border-bottom: 8px solid #DB7070;
+     background-color: #226740;
+     color: white;
+     display: flex;
+     font-family: Tahoma, Geneva, Sans-Serif;
+     font-size: 25px;
+     justify-content: space-between;
+     min-height: 110px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     padding-left: 110px;
+  }
+  
+  header i{
+    position: absolute; 
+    left: 50px;
+  }
+  
+  
+  nav {
+    margin-top: 10px;
+    padding: 0 50px;
+    }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav > ul > li:hover {
+    cursor: pointer;
+    background-color: #FFF5B3;
+  }
+  
+  #header a {
+    color: #FFE347;
+    text-decoration: none;
+  }
+  
+  .title{
+    padding-top: 100px;
+  }
+  
+  .email{
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #email{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #submit {
+    border: 2px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 30px;
+    padding: 0 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #226740;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 150px;
+    text-align: center;
+  }
+  
+  .icon {
+   display: flex;
+   align-items: flex-start;
+   justify-content: left;
+   width: 20vw;
+   color: #DB7070;
+   position: relative;
+   top: 60px;
+   right: 80px;
+   z-index: -1;
+  }
+  
+  .desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  
+  #video{
+    margin-top: 50px;
+  }
+  
+  #Order{
+    display: flex; 
+    margin: 60px  100px  10px 100px;
+    text-align: left;
+  
+  }
+  
+  .product{
+      align-items: center;
+      border: 2px solid black;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin: 10px;
+      width: 100%;
+  }
+  
+  .product .salsa {
+      background-color: #DB7070;
+      border-radius: 20px 20px 0 0;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+  }
+  
+  .product > ul > li {
+    list-style-type: disc;
+    padding: 5px;
+    list-style-position: outside;
+    margin-left: 30px;
+  }
+  
+  .product > button {
+    background-color: #FFE347;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: auto;
+    padding: 0 15px;
+    border: 1px grey solid;
+    border-radius: 5px;
+  }
+  
+  
+  footer {
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  footer > ul {
+     display: flex;
+     justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    display: flex;
+    color: #C0C0C0;
+    justify-content: flex-end;
+    font-size: 0.9em;
+  }
+  
+  
+  a:link {
+    color: #c0c0c0;
+  }
+  
+  
+  a:visited {
+    color: #c0c0c0;
+  }
+  
+  a:hover {
+    color: #c0c0c0;
+  }
+  
+  a:active {
+    color: #c0c0c0;
+  }
